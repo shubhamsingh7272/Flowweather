@@ -126,7 +126,7 @@ export default function Weather() {
       setWeather(weatherData as WeatherData);
       setForecast(forecastData as ForecastData[]);
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Something went wrong');
+      setError(err instanceof Error ? err.message : 'Something Went wrong');
     } finally {
       setLoading(false);
     }
