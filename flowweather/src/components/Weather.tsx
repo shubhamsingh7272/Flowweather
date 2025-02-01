@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef, Suspense } from 'react';
-import { WeatherData, WeatherError } from '@/types/Weather';
+import { WeatherData, WeatherError } from '@/types/weather';
 import { useRouter, useSearchParams } from 'next/navigation';
 
 interface ForecastData extends WeatherData {
